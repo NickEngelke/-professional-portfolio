@@ -26,6 +26,7 @@ header {
   flex-wrap: wrap;
   padding: 20px;
 }
+
 header div {
   box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
 }
@@ -41,7 +42,7 @@ header h1 {
 
 header h1 .seo {
     text-decoration: none;
-    color: #7ef309;
+    color: var(--secondary);
 }
 
 header nav {
@@ -169,46 +170,52 @@ height: 400px;
 }
 
 .project {
+  /*width: 100%;
+    height: 100%;*/
     border: solid;
     color: black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     text-decoration: none;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
+}
+.project-label {
+  background-color: white;
+  padding: 10px;
 }
 
-.project:hover {
-  opacity: 1.0;
-}
 
 .horiseon {
     grid-column: 1/3;
     grid-row: span 2;
     background-image: url("../images/horiseon.jpg");
+    background-size: cover;
+    background-position: center;
    
 }
 
 .Under-Construction {
   background-image: url("../images/under\ con.jpg");
+  background-size: cover;
   background-position: 50% 15%;
 }
 
 .stay-tuned {
   background-image: url("../images/stay\ tuned.jpg");
-  background-position: 50% 80%;
+  background-size: cover;
+    background-position: 50% 80%;
 }
 
 .comming-soon{
   background-image: url("../images/coming\ soon.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .more-to-come {
   background-image: url("../images/more-to-come.jpg");
   background-size: cover;
-  background-position: center;
+    background-position: center;
 
 }
 
