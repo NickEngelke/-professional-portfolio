@@ -111,6 +111,159 @@ header nav ul li a:hover {
   padding-top: 30px;
 }
 
+.example-container {
+  display: flex;
+  /* padding: 10px; */
+  justify-content: space-between;
+  align-items: center;
+  border-top: 10px solid #2a607c;
+  border-bottom: 10px solid#2a607c;
+  /* border: 2px solid rgb(0, 255, 136); */
+}
+
+.work-label {
+  text-align: center;
+  /* border: 2px solid #493a5a; */
+  background-color: rgba(128, 128, 128, 75%);
+  transform: rotate(-90deg);
+  border-radius: 14px;
+  padding: 10px;
+}
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border-radius: 14px; */
+
+}
+  .project1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(".../images/horiseon.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid antiquewhite;
+    border-radius: 14px;
+    padding: 10px;
+    flex-basis: 100%;
+  }
+
+.project2 {
+  height: 300px;
+  width: 300px;
+  background-image: url("../images/coming\ soon.jpg");
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid antiquewhite;
+  border-radius: 14px;
+  padding: 10px;
+  flex-basis: 100%;
+}
+
+.project3{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 24%;
+  background-image: url("../images/more-to-come.jpg");
+  border: 2px solid antiquewhite;
+  border-radius: 14px;
+  }
+  
+  .project4 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 24%;
+    background-image: url("../images/stay\ tuned.jpg");
+    border: 2px solid antiquewhite;
+    border-radius: 14px;
+    }
+  
+    .project5 {
+      height: 200px;
+      width: 200px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-basis: 24%;
+      background-image: url("../images/under\ con.jpg");
+      border: 2px solid antiquewhite;
+      border-radius: 14px;
+    }
+
+    div.work-container span {
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+      width: 50%;
+      border-radius: 14px;
+      background-color: rgba(128, 128, 128, 75%);
+      color: antiquewhite;
+      padding: 10px 5px;
+      text-align: center;
+    }
+    
+    .project1 a {
+      text-decoration: none;
+      color: antiquewhite;
+    }
+
+   /* End Example Section*/
+/* Contact Section */
+.contact-card {
+  display: flex;
+  padding: 10px;
+  margin: 50px 0 50px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-label {
+  text-align: center;
+  /* border: 2px solid #493a5a; */
+  background-color: rgba(128, 128, 128, 75%);
+  transform: rotate(-90deg);
+  border-radius: 14px;
+  border-right: 2px solid #2a607c;
+  padding: 10px;
+} 
+
+.cm-buttons nav {
+  margin: 10px 0;
+}
+.cm-buttons nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.cm-buttons nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #2a607c
+}
+.cm-buttons nav ul li a:hover {
+  background: rgb(199, 181, 199);
+  color: gray;
+  border-radius: 10px;
+  text-shadow: none;
+}
+/* End Contact Section */
+
 .about-me h2 {
   font-size: 48px;
 }
@@ -126,7 +279,7 @@ header nav ul li a:hover {
 /* my work section styling start */
 
 .my-work {
-  padding: 48px 0;
+  padding: 30px 0;
   display: flex;
   justify-content: space-between;
   background-color: var(--primary);
@@ -172,18 +325,29 @@ header nav ul li a:hover {
   grid-column: 1/3;
   grid-row: span 2;
   background-image: url("../images/horiseon.jpg");
-  background-size: cover;
-  background-position: center;
-  background-size: cover;
-  background-position: 50% 80%;
+  height: 450px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px solid orange; */
+  border-radius: 14px;
+  padding: 30px;
+  flex-basis: 100%;
 }
 
 
 .project2 {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 24%;
   background-image: url("../images/coming\ soon.jpg");
-  background-size: cover;
-  background-position: 50% 16%;
-  
+  border: 2px solid antiquewhite;
+  border-radius: 14px;
 
 }
 
@@ -191,18 +355,50 @@ header nav ul li a:hover {
   background-image: url("../images/more-to-come.jpg");
   background-size: cover;
   background-position: 50% 80%;
+  height: 200px;
+  width: 200px;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 25%;
+  /* border: 1px solid greenyellow; */
+  border-radius: 14px;
+  flex-basis: 25%;
 }
 
 .project4 {
   background-image: url("../images/stay\ tuned.jpg");
   background-size: cover;
   background-position: center;
+  background-position: 50% 16%;
+  height: 200px;
+  width: 200px;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 25%;
+  /* border: px solid greenyellow; */
+  border-radius: 14px;
+  flex-basis: 25%;
 }
 
 .project5 {
   background-image: url("../images/under\ con.jpg");
   background-size: cover;
   background-position: center;
+  background-position: 50% 16%;
+  height: 200px;
+  width: 200px;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 25%;
+  /* border: 2px solid greenyellow; */
+  border-radius: 14px;
+  flex-basis: 25%;
 }
 
 .project-label {
@@ -233,7 +429,7 @@ footer {
 }
 
 footer h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 
