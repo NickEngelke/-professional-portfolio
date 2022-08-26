@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-##Portfolio
-=======
+
 # Portfolio
->>>>>>> 8e8acec13675695a8b388e027f81fdbe3808584f
 
 
 Challenge 2: Advanced CSS Challenge: Professional Portfolio
