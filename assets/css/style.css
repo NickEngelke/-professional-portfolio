@@ -111,6 +111,14 @@ header nav ul li a:hover {
   padding-top: 30px;
 }
 
+.bio-pic {
+  width: 25%;
+  border: 2px solid antiquewhite;
+  justify-content: flex-end;
+  border-radius: 14px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .example-container {
   display: flex;
   /* padding: 10px; */
